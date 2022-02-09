@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body class = corpspage>
+    <h1>Listes des pièces de l'appartement</h1>
+    <% for( let i = 0; i < listepiece.length; i++ ) { %>
+        <div class = lignepiece>
+        Pièce : <%= listepiece[i].piece %> 
+         <!-- <%= listepiece[i].largeur %> 
+         <%= listepiece[i].longueur %>  -->
+         <%= listecalcul[i] %> m2 </br>
+        </div>
+    <% } %>
+
+    <div class= total>
+        Surface totale : <%= calcultot %> m2
+    </div>
+
+    <form action="/apart/retour">
+        <input type="submit" value= "Encoder une autre pièce" class= "button" />
+    </form>
+</body>
+</html>

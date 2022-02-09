@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>FormationList</title>
+</head>
+<body class = corpspage>
+    <h1>Encoder les données de la pièce</h1>
+
+    
+<form action="/apart/enregistrer" method="post">
+    Pièce : 
+    <input type="text" name="piece"> </br>
+    Largeur : 
+    <input type="text" name="largeur"></br>
+    Longueur : 
+    <input type="text" name="longueur"></br>
+    <input type="submit" name="Enregistrer" value = "enregistrer" class= "button"> </br>
+</br>
+    <input type="submit" value="Calculer la surface" class = "button" formaction="/apart/calcul"> <%= calculer %> 
+</form>
+
+
+
+
+</body>
+</html>

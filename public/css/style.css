@@ -1,0 +1,27 @@
+.corpspage{
+    width: 500px;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.button{
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lignepiece{
+    background-color:lightgrey;
+    padding: 5px;
+    margin: 5px;
+}
+
+.total{
+    background-color:lightblue;
+    padding: 5px;
+    margin: 5px;
+}
+
